@@ -1,0 +1,12 @@
+server:
+  port: 5050
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: luigi
+#mybatis:
+  # 配置mapper xml文件所在路径
+#  mapper-locations: classpath:mybatis-mapper/*.xml
+#  type-aliases-package: com.shao.blogback.model
